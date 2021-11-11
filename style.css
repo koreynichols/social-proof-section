@@ -25,3 +25,19 @@ p {
     font-weight: 500;
     margin: 10px;
 }
+
+.rating {
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    width: 90%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rating p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
