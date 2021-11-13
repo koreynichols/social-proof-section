@@ -18,16 +18,19 @@ h1 {
     line-height: 1em;
     letter-spacing: 0px;
     margin: 80px 25px 15px;
+    text-align: center;
 }
 
 p {
     color: hsl(303, 10%, 53%);
     font-weight: 500;
     margin: 10px;
+    text-align: center;
 }
 
 .rating {
     font-size: 13px;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
     line-height: 1.3em;
@@ -51,7 +54,18 @@ p {
     display: block;
 }
 
-.review-profile img {
+.review img {
     border-radius: 50%;
     height: 45px;
+}
+
+.review p {
+    text-align: left;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 20px;
+}
+
+.status {
+    color: hsl(333, 80%, 67%)!important;
 }
